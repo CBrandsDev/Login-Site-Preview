@@ -179,9 +179,8 @@ body:after {
   .colum .sing-up {
     align-items: center;
     text-align: center;
-    border: solid;
     border-radius: 50px;
-    margin-left: 50px;
+    margin-left: 60px;
     max-width: 200px;
     max-height: 70px;
   }
@@ -193,5 +192,17 @@ body:after {
 
   .social-buttons {
     justify-content: center;
+  }
+}
+
+@media (max-width: 660px) {
+  .colum .sing-up {
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 20px;
+    padding: 15px;
+    max-width: 200px;
+    max-height: 70px;
   }
 }
